@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <h1>Formulários no HTML</h1>
+
+    <form action="https://google.com/search" method="get">
+
+        <input type="text" name="q" id="">
+        <button type="submit">Pesquisar</button>
+    </form>
+
+    <h1>Inputs do HTML</h1>
+    <form action="">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="Nome" id="nome" placeholder="Input de texto" required> <br> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" placeholder="Input de Email" required><br> <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="Senha" id="senha" placeholder="Input de senha" required> <br> <br>
+
+        <label>Gênero</label> <br>
+        <input type="radio" name="Genero" id="man" value="M">
+        <label for="man">Masculino</label>
+        <input type="radio" name="Genero" id="woman" value="W">
+        <label for="woman">Feminino</label> <br><br>
+
+        <label for="data"></label>
+        <input type="date" name="data" id="Data"> <br><br>
+
+        <label>Checkbox</label> <br><br>
+        <input type="checkbox" id="romance" name="Check" value="Livros">
+        <label for="romance">Romance</label> <br><br>
+
+        <input type="checkbox" id="ficcao" name="Check" value="Livros">
+        <label for="ficcao">Ficção Científica</label><br><br>
+
+        <input type="checkbox" id="suspense" name="Check" value="Livros">
+        <label for="suspense">Suspense</label><br><br>
+
+        <input type="checkbox" id="fantasia" name="Check" value="Livros">
+        <label for="fantasia">Fantasia</label><br><br>
+
+        <label for="foto">Foto do Perfil</label><br>
+        <input type="file" name="avatar" id="foto"> <br><br>
+
+        <button type="submit">Pesquisar</button>
+
+    </form>
+    
+</body>
+</html>
