@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,6 +51,16 @@
 
         <label for="foto">Foto do Perfil</label><br>
         <input type="file" name="avatar" id="foto"> <br><br>
+
+        <label for="situacao">Situação atual</label>
+        <select name="situacao" id="situacao">
+            <option value=""  disabled>Selecione uma das opções...</option>
+            <option value="estudante">Estudante</option>
+            <option value="formado">Formado</option>
+        </select> <br><br>
+
+        <label for="sobre">Fale sobre você:</label>
+        <textarea name="sobre" id="sobre" cols="45" rows="6"></textarea>
 
         <button type="submit">Pesquisar</button>
 
